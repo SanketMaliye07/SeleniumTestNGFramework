@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-30T17:08:14 IST" name="Regression Suite" finished-at="2024-05-30T17:16:34 IST" duration-ms="499430">
+    <groups>
+    </groups>
+    <test started-at="2024-05-30T17:08:14 IST" name="Test" finished-at="2024-05-30T17:16:34 IST" duration-ms="499430">
+      <class name="Testcases.UserLogoutCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Testcases.UserLogoutCases@13e344d]" started-at="2024-05-30T17:08:15 IST" name="setUp" finished-at="2024-05-30T17:09:20 IST" duration-ms="65085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulUserLogout()[pri:0, instance:Testcases.UserLogoutCases@13e344d]" started-at="2024-05-30T17:09:20 IST" name="testSuccessfulUserLogout" finished-at="2024-05-30T17:11:08 IST" duration-ms="108458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulUserLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.UserLogoutCases@13e344d]" started-at="2024-05-30T17:11:08 IST" name="tearDown" finished-at="2024-05-30T17:11:08 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.UserLogoutCases -->
+      <class name="Testcases.UserLoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Testcases.UserLoginTests@75d3a5e0]" started-at="2024-05-30T17:11:08 IST" name="setUp" finished-at="2024-05-30T17:12:13 IST" duration-ms="64364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulUserLogin()[pri:0, instance:Testcases.UserLoginTests@75d3a5e0]" started-at="2024-05-30T17:12:13 IST" name="testSuccessfulUserLogin" finished-at="2024-05-30T17:13:13 IST" duration-ms="60625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulUserLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.UserLoginTests@75d3a5e0]" started-at="2024-05-30T17:13:13 IST" name="tearDown" finished-at="2024-05-30T17:13:14 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Testcases.UserLoginTests@75d3a5e0]" started-at="2024-05-30T17:13:14 IST" name="setUp" finished-at="2024-05-30T17:14:26 IST" duration-ms="72392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulUserLoginWithExcelData()[pri:0, instance:Testcases.UserLoginTests@75d3a5e0]" started-at="2024-05-30T17:14:26 IST" name="testSuccessfulUserLoginWithExcelData" finished-at="2024-05-30T17:16:05 IST" duration-ms="99405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulUserLoginWithExcelData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.UserLoginTests@75d3a5e0]" started-at="2024-05-30T17:16:05 IST" name="tearDown" finished-at="2024-05-30T17:16:06 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Testcases.UserLoginTests@75d3a5e0]" started-at="2024-05-30T17:16:06 IST" name="setUp" finished-at="2024-05-30T17:16:21 IST" duration-ms="15254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulUserLoginWithJSONData()[pri:0, instance:Testcases.UserLoginTests@75d3a5e0]" started-at="2024-05-30T17:16:21 IST" name="testSuccessfulUserLoginWithJSONData" finished-at="2024-05-30T17:16:34 IST" duration-ms="12809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulUserLoginWithJSONData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.UserLoginTests@75d3a5e0]" started-at="2024-05-30T17:16:34 IST" name="tearDown" finished-at="2024-05-30T17:16:34 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.UserLoginTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
