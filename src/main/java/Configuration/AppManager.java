@@ -49,13 +49,13 @@ public class AppManager {
     }
 
     private void setUpChrome(boolean headless) {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments(
-                "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36");
+        ChromeOptions options = new ChromeOptions(); 
         options.addArguments("--remote-allow-origins=*");
         if (headless) {
             options.addArguments("--headless");
         }
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
         driver = new ChromeDriver(options);
     }
 
