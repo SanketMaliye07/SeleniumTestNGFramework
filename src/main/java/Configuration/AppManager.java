@@ -50,15 +50,15 @@ public class AppManager {
 
     private void setUpChrome(boolean headless) {
         ChromeOptions options = new ChromeOptions();
-        options.addArguments(
-                "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36");
+//        options.addArguments(
+//                "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36");
         options.addArguments("--remote-allow-origins=*");
         if (headless) {
             options.addArguments("--headless");
             options.addArguments("--disable-gpu");
             options.addArguments("--window-size=1920,1080");
-            options.addArguments("--disable-dev-shm-usage");
-            options.addArguments("--no-sandbox");
+//            options.addArguments("--disable-dev-shm-usage");
+//            options.addArguments("--no-sandbox");
         }
         driver = new ChromeDriver(options);
     }
